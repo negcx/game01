@@ -1,0 +1,17 @@
+{
+  "name": "game01",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "npx esbuild --bundle game.ts --outdir=www/js --watch --servedir=www"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "esbuild": "^0.19.3",
+    "phaser": "^3.60.0",
+    "typescript": "^5.2.2"
+  }
+}
